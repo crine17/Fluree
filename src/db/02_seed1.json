@@ -1,0 +1,26 @@
+[{
+    "_id": "assignee$assignee1",
+    "name": "Flor",
+    "email": "flordmarshall@gmail.com",
+    "lists":["list$first"]
+   },
+    {"_id": "list$first",
+     "tasks": ["task$first","task$second","task$third"],
+     "name": "First list",
+     "description": "Flor's first test list"
+    },
+    {"_id": "task$first",
+     "name": "exercise after work",
+     "isCompleted": false,
+     "assignedTo":"assignee$assignee1"
+    },
+    {"_id": "task$second",
+     "name": "eat protein for lunch",
+     "isCompleted": false,
+     "assignedTo":"assignee$assignee1"
+    },
+     {"_id": "task$third",
+     "name": "study German",
+     "isCompleted": false,
+     "assignedTo":"assignee$assignee1"
+    }]

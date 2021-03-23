@@ -1,0 +1,44 @@
+[{
+    "_id": "assignee$assignee1",
+    "lists":["list$second", "list$third"]
+   },
+     {"_id": "list$second",
+     "tasks": ["task$first","task$second","task$third"],
+     "name": "Second list",
+     "description": "Flor's second test list"
+    },
+     {"_id": "task$first",
+     "name": "take out the trash",
+     "isCompleted": false,
+     "assignedTo":"assignee$assignee1"
+    },
+    {"_id": "task$second",
+     "name": "drop Felix off at Oma and Opa's",
+     "isCompleted": false,
+     "assignedTo":"assignee$assignee1"
+    },
+     {"_id": "task$third",
+     "name": "get car's oil changed",
+     "isCompleted": false,
+     "assignedTo":"assignee$assignee1"
+    },
+      {"_id": "list$third",
+     "tasks": ["task$one","task$two","task$three"],
+     "name": "Third list",
+     "description": "Flor's third test list"
+    },
+     {"_id": "task$one",
+     "name": "pay off credit card",
+     "isCompleted": false,
+     "assignedTo":"assignee$assignee1"
+    },
+    {"_id": "task$two",
+     "name": "do taxes for 2020",
+     "isCompleted": false,
+     "assignedTo":"assignee$assignee1"
+    },
+     {"_id": "task$three",
+     "name": "refinance student loans w/ navy fed",
+     "isCompleted": false,
+     "assignedTo":"assignee$assignee1"
+    }]
